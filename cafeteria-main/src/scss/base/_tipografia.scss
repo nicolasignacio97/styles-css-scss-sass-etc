@@ -32,10 +32,23 @@ h2 {
         margin: 0 auto;
         background-image: url(../img/cafe.svg);
         background-size: 10rem;
-    }  
-} 
+    }
+}
+
+.heading-blanco {
+    @extend h2;
+    color: v.$blanco;
+    font-size: 2rem;
+    span {
+        color: v.$blanco;
+        font-size: 4rem;
+    }
+    &:after {
+        display: none;
+    }
+}
 
 h3 {
     font-size: 3.2rem;
 
-} 
+}
