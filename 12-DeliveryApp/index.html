@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Delivery</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+
+<body>
+    <header class="header contenedor">
+        <div class="header__logo">
+            <img src="build/img/logo.svg" alt="logo">
+        </div>
+        <nav class="navegacion">
+            <a href="#" class="navegacion__link">Iniciar Sesión</a>
+            <a href="#" class="navegacion__link">Crear Cuenta</a>
+            <a href="#" class="navegacion__link navegacion__link--registrar">Registrar Restaurant</a>
+        </nav>
+    </header>
+    <section class="formulario contenedor">
+        <div class="formulario__grid">
+            <div class="formulario__contenido">
+                <h2 class="formulario__heading">Encuentra y pide comida de tu restaurante favorito</h2>
+                <form class="formulario__buscar">
+                    <div class="formulario__campo">
+                        <label for="restaurant" class="formulario__label">Restaurant</label>
+                        <input id="restaurant" class="formulario__input" placeholder="Su tocomple" type="text">
+                    </div>
+                    <div class="formulario__campo">
+                        <label for="platillo" class="formulario__label">Platillo</label>
+                        <input id="platillo" class="formulario__input" placeholder="Completo italiano" type="text">
+                    </div>
+
+                    <input type="submit" class="formulario__submit" value="Buscar">
+                </form>
+            </div>
+            <div class="formulario__imagen-contenedor">
+                <img src="build/img/dibujo_repartidor.svg" class="formulario__imagen" alt="repartidor">
+            </div>
+        </div>
+    </section>
+    <section class="pasos">
+        <img class="pasos__wave" src="build/img/wave.svg" alt="wave">
+        <div class="pasos__contenido">
+            <h2 class="pasos__heading">¿Cómo funcina? <span>tan fácil como 1,2 y 3</span></h2>
+            <div class="pasos__grid contenedor">
+                <div class="pasos__paso">
+                    <img class="pasos__imagen" src="build/img/paso_1.avif" alt="imgh">
+                </div>
+                <div class="pasos__paso">
+                    <img class="pasos__imagen" src="build/img/paso_2.avif" alt="imgh">
+                </div>
+                <div class="pasos__paso">
+                    <img class="pasos__imagen" src="build/img/paso_3.avif" alt="imgh">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="testimoniales contenedor">
+        <h2 class="testimoniales__heading">testimoniales</h2>
+        <div class="testimoniales__grid">
+            <div class="testimonial">
+                <header class="testimonial__header">
+                    <div class="testimonial__imagen">
+                        <img src="build/img/testimonial1.avif" alt="testimonial">
+                    </div>
+                    <div class="testimonial__informacion">
+                        <p class="testimonial__autor">Juan Perez</p>
+                        <img class="testimonial__clasificacion" src="build/img/estrellas.png" alt="estrellas">
+                    </div>
+                </header>
+                <blockquote class="testimonial__texto">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quisquam, quidem.
+                </blockquote>
+            </div>
+            <div class="testimonial">
+                <header class="testimonial__header">
+                    <div class="testimonial__imagen">
+                        <img src="build/img/testimonial5.avif" alt="testimonial">
+                    </div>
+                    <div class="testimonial__informacion">
+                        <p class="testimonial__autor">Itzel Cruz</p>
+                        <img class="testimonial__clasificacion" src="build/img/estrellas.png" alt="estrellas">
+                    </div>
+                </header>
+                <blockquote class="testimonial__texto">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quisquam, quidem.
+                </blockquote>
+            </div>
+            <div class="testimonial">
+                <header class="testimonial__header">
+                    <div class="testimonial__imagen">
+                        <img src="build/img/testimonial4.avif" alt="testimonial">
+                    </div>
+                    <div class="testimonial__informacion">
+                        <p class="testimonial__autor">Rocio Rodriguez</p>
+                        <img class="testimonial__clasificacion" src="build/img/estrellas.png" alt="estrellas">
+                    </div>
+                </header>
+                <blockquote class="testimonial__texto">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quisquam, quidem.
+                </blockquote>
+            </div>
+            <div class="testimonial">
+                <header class="testimonial__header">
+                    <div class="testimonial__imagen">
+                        <img src="build/img/testimonial2.avif" alt="testimonial">
+                    </div>
+                    <div class="testimonial__informacion">
+                        <p class="testimonial__autor">Cyntia V</p>
+                        <img class="testimonial__clasificacion" src="build/img/estrellas.png" alt="estrellas">
+                    </div>
+                </header>
+                <blockquote class="testimonial__texto">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quisquam, quidem.
+                </blockquote>
+            </div>
+            <div class="testimonial">
+                <header class="testimonial__header">
+                    <div class="testimonial__imagen">
+                        <img src="build/img/testimonial3.avif" alt="testimonial">
+                    </div>
+                    <div class="testimonial__informacion">
+                        <p class="testimonial__autor">Jose Hernandez</p>
+                        <img class="testimonial__clasificacion" src="build/img/estrellas.png" alt="estrellas">
+                    </div>
+                </header>
+                <blockquote class="testimonial__texto">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quisquam, quidem.
+                </blockquote>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
